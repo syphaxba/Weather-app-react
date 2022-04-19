@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background: #1E213A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../assets/images/sunset.jpg') no-repeat center center/cover;
+}
+.App .serach{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+ }
+.App .info{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.App .serach input[type="text"]{
+     height: 50px;
+     width: 300px;
+     padding-left: 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255, 0.8);
+    background: rgba(255,255,255, 0.1);
+    color: #f8f8f8;
+}
+.App .serach input[type="text"]::placeholder{
+    color: #f8f8f8;
+}
+.App .tempurature{
+     font-family: 'Raleway';
+     text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 169px;
+    color: #fff;
+    width: 300px;
+    border-radius: 13px;
+    background-color: rgba(255,255,255, 0.5);
+}
+.App .tempurature .celcus{
+    font-size: 50px;
+}
+.App .temps{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
+    color: #fff;
+}
+.App .date{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    height: 50px;
+}
+.App .position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
