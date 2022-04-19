@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a75c59e5.css",
+    "main.js": "/static/js/main.41a32735.js",
+    "static/media/sunset.jpg": "/static/media/sunset.ab19eb6fc568e5c0ff4d.jpg",
+    "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.3fefe681f4c62116679b.ttf",
+    "index.html": "/index.html",
+    "main.a75c59e5.css.map": "/static/css/main.a75c59e5.css.map",
+    "main.41a32735.js.map": "/static/js/main.41a32735.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a75c59e5.css",
+    "static/js/main.41a32735.js"
+  ]
+}
